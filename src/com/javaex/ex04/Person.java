@@ -43,6 +43,12 @@ public class Person {
 	public void setCompany(String company) {
 		this.company = company;
 	}
+
+	@Override
+	public String toString() {
+		return  name + ", " + hp + ", " + company+"\n";
+	}
+	
 	
 	
 }
