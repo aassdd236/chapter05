@@ -16,6 +16,7 @@ public class Ex02 {
 		byte[] buff=new byte[1024];
 		
 		System.out.println("복사 시작");
+		
 		while(true) {
 			int data=in.read(buff);
 			
@@ -26,6 +27,7 @@ public class Ex02 {
 			
 			out.write(buff);
 		}
+		
 		out.close();
 		in.close();
 	}
